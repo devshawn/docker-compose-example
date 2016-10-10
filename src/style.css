@@ -5,8 +5,16 @@
   transform: translate(-50%, -50%);
 }
 
-.voting-button {
+.blue-button, .red-button {
   width: 200px;
   height: 100px;
+  margin: 10px;
+}
+
+.red, .blue {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  font-size: 30px;
   margin: 10px;
 }
