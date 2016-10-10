@@ -1,0 +1,21 @@
+{
+  "name": "voting-application",
+  "version": "1.0.0",
+  "description": "This is an example voting application to showcase Docker compose.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devshawn/docker-compose-example.git"
+  },
+  "author": "Shawn Seymour",
+  "bugs": {
+    "url": "https://github.com/devshawn/docker-compose-example/issues"
+  },
+  "homepage": "https://github.com/devshawn/docker-compose-example#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
