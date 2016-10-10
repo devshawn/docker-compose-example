@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var redis = require("redis");
 var app = express();
-var client = redis.createClient();
+var client = redis.createClient({host: 'redis'});
 
 client.on('error', function(err) {
   console.log('Redis error: ' + err);
